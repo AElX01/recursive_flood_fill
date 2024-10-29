@@ -1,9 +1,10 @@
+#include "../custom_dataTypes.h"
+
 #ifndef QUEUE_H_
 #define QUEUE_H_
 
-typedef void *Type;
+
 typedef struct strQueue *Queue;
-typedef enum {FALSE, TRUE} boolean;
 
 Queue queue(void (*destroy_dataAtNode) (Type));
 unsigned getSize(Queue);

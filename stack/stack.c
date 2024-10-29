@@ -70,4 +70,3 @@ void stack_destroy(Stack s) {
         free(s);
     }
 }
-
